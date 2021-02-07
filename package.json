@@ -38,7 +38,6 @@
     "apollo-link-context": "^1.0.20",
     "apollo-link-http": "^1.5.17",
     "awesome-typescript-loader": "^5.2.1",
-    "axios": "^0.19.2",
     "connected-react-router": "^6.8.0",
     "error-overlay-webpack-plugin": "^0.2.0",
     "eslint-webpack-plugin": "^2.5.0",
