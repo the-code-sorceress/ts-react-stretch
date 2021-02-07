@@ -17,6 +17,7 @@ git clone git@github.com:the-code-sorceress/ts-react-stretch.git
 cd ts-react-stretch
 make
 ```
+View at http://localhost:9001/
 
 # Teardown
 ```sh 
