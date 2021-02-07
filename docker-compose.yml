@@ -1,0 +1,11 @@
+version: '3'
+services:
+  frontend:
+    image: node:15.3-alpine
+    container_name: ts-react-stretch
+    working_dir: /app
+    volumes:
+    - .:/app
+    ports:
+    - "9001:3000"
+    entrypoint: npm run dev

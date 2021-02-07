@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Features/*": [
+        "src/Features/*"
+      ],
+      "Pages/*": [
+        "src/Pages/*"
+      ],
+      "Global/*": [
+        "src/Global/*"
+      ]
+    },
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
+}
